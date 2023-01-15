@@ -1,0 +1,36 @@
+.statistics {
+  width: 800px;
+
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.statlist {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 0;
+}
+
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid burlywood;
+  width: calc(100% / 5);
+}
+
+.label {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.percentage {
+  font-size: 50px;
+  font-weight: 700;
+}
