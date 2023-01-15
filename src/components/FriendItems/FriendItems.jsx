@@ -10,9 +10,9 @@ export default function FriendItems({ avatar, isOnline, name }) {
         </li>
       );
     }
-
-FriendItems.propTypes = {
-    avatar: PropTypes.string.isRequired,
-    isOnline: PropTypes.bool.isRequired,
-    name: PropTypes.string.isRequired,
-  };
+    
+    FriendItems.propTypes = {
+      avatar: PropTypes.string.isRequired,
+      isOnline: PropTypes.bool.isRequired,
+      name: PropTypes.string.isRequired,
+    };
